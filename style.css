@@ -1,0 +1,53 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+  }
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.mid_takes{
+    width: 35%;
+    padding: 2%;
+    margin: 15px auto;
+    /* gap: 1%; */
+    justify-items: center;
+    box-shadow: 5px 5px 5px 5px #888888;
+    border-radius: 5px;
+}
+.btn .btn-outline-success{
+    margin: 15px;
+    background-color: green;
+    /* width: 100%; */
+    
+}
+.btn:hover{
+    background-color: green;
+}
+.btn:active{
+    background-color: green;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+@keyframes colorChange {
+    0% { background-color: #18a306; }
+    50% { background-color: #129112; }
+    100% { background-color: green; }
+}
+.header {
+    animation: colorChange 5s infinite;
+    height: 80px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    color: white;
+    
+    /* margin: 10px; */
+}
+/* main css */
+.navbar-main-op {
+    background-color: green;
+    color : white;
+}
